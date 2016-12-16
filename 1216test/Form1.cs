@@ -16,5 +16,10 @@ namespace _1216test
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "OK";
+        }
     }
 }
